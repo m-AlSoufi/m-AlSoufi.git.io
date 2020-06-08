@@ -95,7 +95,7 @@ html {
     border-radius: 4px;
     float: right;
   }
-  
+
   .projects .btn:hover {
     background: rgba(47, 48, 97, 80%);
     
@@ -119,7 +119,7 @@ html {
   /* Education
   ------------------------------------*/
   .education {
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    background-image: url(/Images/unsplash.jpg);
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
