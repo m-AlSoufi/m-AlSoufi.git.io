@@ -1,15 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link  href="./CSS/styles.css" rel="stylesheet" type="text/css">
-    <link href="./CSS/layout.css" rel="layout" type="text/css">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    
-    <title>Moe Al-Soufi's Professional Portfolio</title>
-</head>
-<body class="container">
-    <img src="./Images/Profile_Pic.jpg" alt="Profile Picture" title="Moe Al-Soufi" style="width 200px;height:200px;">
-    <h1>Moe Al-Soufi</h1>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe Al-Soufi, Software Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <main>
+      <!-- ***************  ABOUT / PROFILE  **************** -->
+      <header>
+        <div class="content-wrap">
+          <h1>Moe Al-Soufi</h1>
+          <h2>Software Developer</h2>
+
+          <p>As a developer, I create front-end and back-end software solutions that are scalable and easy to expand amd maintain.</p>
+          <p>I’m also a data scientist with an extensive experience working with large data and using BI tools like Tableau to create dashboards and to converge data from multiple sources to answer the business question.</p>
+        </div>
+      </header>
+
+      <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+      <section class="projects">
+        <div class="content-wrap divider">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below.</p>
+
+          <!-- Project 1 -->
+        <section class="project-item">
+            <img src="Images/Virtual_pet.jpg" alt="Lynda & LinkedIn Learning course list">
+            <h3>Virtual Pet Console Application</h3>
+            <p>Developed a virtual pet app that allows a user to interact with several pet objects through a menu of selections using Java code. The user must keep an eye on several pet objects stats like hunger, boredom and health. The stats change as time goes by and the user must fix through selecting to feed, water, or take the pets to the vet.  </p>
+            <a class="btn" href="https://github.com/2020-Summer-Cohort/virtual-pet-java-m-AlSoufi" target="_blank">Github Repo for the project</a>
+        </section>
+
+          <!-- Project 2 -->
+          <section class="project-item">
+            <img src="images/Virtual_pet_shelter.jpg" alt="Women and Tech website">
+            <h3>Virtual Pet Shelter</h3>
+            <p>Developed a virtual pet shelter app that housed several Java pet objects. The app offers several ways that a user can interact with the pets by feeding them, watering them or playing with them. The app relies on a pet map java method that allows the user to adopt a pet(remove it from the map) or admit a pet(add it to the map). The user can control the level of boredom of a single pet a time y selecting it for play</p>
+            <a class="btn" href="https://github.com/2020-Summer-Cohort/virtual-pet-shelter-java-m-AlSoufi" target="_blank">Github Repo for the project</a>
+          </section>
+
+          <!-- Project 3 -->
+          <section class="project-item">
+            <img src="Images/Virtual_pet_shelter-Amok" alt="The Wire Ipsum website">
+            <h3>Virtual Pet Amok</h3>
+            <p>This java application uses inheritance and polymorphism to contain several kinds of pet that had different needs including robotic pets.</p>
+            <a class="btn" href="https://github.com/2020-Summer-Cohort/virtual-pets-amok-java-m-AlSoufi" target="_blank">Github Repo for the project</a>
+          </section>
+        </div>
+      </section>
+
+      <!-- ****************  WORK EXPERIENCE  ******************** -->
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
+          <h2>Work Experience</h2>
+          <p>See my complete work history on <a href="https://www.linkedin.com/in/moe-al-soufi/">LinkedIn</a>.</p>
+
+          <!-- Job 1 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Sr. Analyst B2B Natl Ops Group</h3>
+              <p>Verizon</p>
+              <p>October 2015-Present</p>
+            </div>
+            <div class="job-summary">
+              <p>Supports National Ops B2B Contract Implementation Group including Public Sector by providing 
+                  reporting and relational data base maintenance. Administers SalesForce.com instance for the group where 
+                  all customer interactions and stats are maintained. Provides BI dashboards to leadership on group KPIs as they relate to customer accounts.</p>
+            </div>
+          </section>
+
+          <!-- Job 2 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Wireless Network System Performance Engineer</h3>
+              <p>Verizon</p>
+              <p>February 2006 - October 2015</p>
+            </div>
+            <div class="job-summary">
+              <p>Managed all aspects of the Wireless network performance for the Verizon Wireless Midwest Area B2C Tech Support departments. 
+                  Managed a Verizon WIMAX network that delivered internet service to thousands of customers in rural areas across several Midwestern states</p>
+              <p>Key contributions:</p>
+              <ul>
+                <li>Facilitated the launch of the Verizon 4G network and activated the very first fixed 4G solution customer to pilot the program.
+                  <ul>
+                    <li>Facilitated the retirement of the WIMAX network and the migration of all the customers who were using it to a mobile 4G solution.</li>
+                    <li>Created and revamped multiple knowledge base resources that can be used in the process of troubleshooting customer 3G and 4G connectivity issues based on different scenarios.</li>
+                    <li>Created a database for checking out and tracking test devices for Verizon Tech Support reps.</li>
+                  </ul>
+                </li>
+                <li>Provided training for all Tech reps focusing on creating an inclusive and engaging learning environment.</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Job 3 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Tech Support Supervisor</h3>
+              <p>Tele-Performance USA</p>
+              <p>October 2003 - February 2006</p>
+            </div>
+            <div class="job-summary">
+              <p>Lead a team of Verizon FIOS and DSL tech support reps.</p>
+              <p>Key contributions:</p>
+              <ul>
+                <li>Responsible for setting support standards for the tier 2 and tier 3 tech support reps.</li>
+                <li>Created a fully customized training curriculum for the tech new hires.</li>
+                <li>Standardized the process flow of assisting customers.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+      <section class="education">
+        <div class="content-wrap item-details">
+          <h2>Education</h2>
+
+             <section>
+                <h3>We Can Code It - Columbus, OH</h3>
+                <p>Full Stack Java Developer BootCamp, 2020</p>
+             </section>
+             <section>
+                <h3>University of Phoenix - Phoenix, AZ</h3>
+                <p>Bachelor of Science, 2013</p>
+                <p>Global Business Management</p>
+            </section>
+            <section>
+            <h3>Abdelmalek Essaadi University - Tangier, Morocco</h3>
+            <p>Bachelor of Arts with Honours, 1993-1997</p>
+            <p>Double Major in English Literature, World Languages and Translation -Linguistics.</p>
+            <p>Linguistic combination: Arabic-English-French </p>
+          </section>
+        </div>
+      </section>
+
+      <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+      <footer>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
+
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="contact-list">
+            <li><a href="mailto:mo7ammad.alsoufi@gmail.com">mo7ammad.alsoufi@gmail.com</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
