@@ -30,7 +30,7 @@ html {
     width: 300px;
   }
   a {
-    color: rgb(51, 20, 136);
+    color: rgb(139, 12, 12);
     font-weight: bold;
   }
   a:hover {
@@ -83,7 +83,7 @@ html {
   /* Projects
   ------------------------------------*/
   .projects {
-    background: #F7FFF7;
+    background: rgba(11, 78, 221, .4);
   }
   .projects a {
     color: #2F3061;
