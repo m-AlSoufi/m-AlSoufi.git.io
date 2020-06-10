@@ -111,7 +111,7 @@ html {
   /* Work Experience
   ------------------------------------*/
   .work-experience {
-    background: rgb(75, 235, 60);
+    background: rgba(75, 235, 60, .6);
   }
   
   
