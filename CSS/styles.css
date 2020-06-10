@@ -30,7 +30,8 @@ html {
     width: 300px;
   }
   a {
-    color: #FFE66D;
+    color: rgb(51, 20, 136);
+    font-weight: bold;
   }
   a:hover {
     text-decoration: none;
