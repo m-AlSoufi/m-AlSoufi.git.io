@@ -30,8 +30,11 @@ html {
     width: 300px;
   }
   a {
-    color: rgb(139, 12, 12);
+    color: rgb(5, 0, 0);
     font-weight: bold;
+  }
+  .resume-link{
+    color:#F7FFF7;
   }
   a:hover {
     text-decoration: none;
@@ -78,6 +81,15 @@ html {
     background: #2F3061;
     color: #F7FFF7;
   }
+  .email{
+    text-align: center;
+  }
+  .name{
+    text-align: center;
+  }
+  .job1{
+    margin: 0;
+  }
   
   
   /* Projects
@@ -114,7 +126,14 @@ html {
   .work-experience {
     background: rgba(75, 235, 60, .6);
   }
-  
+  .exp {
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+  }
+  .skills{
+    font-family: 'Montserrat', sans-serif;
+  }
   
   
   /* Education
